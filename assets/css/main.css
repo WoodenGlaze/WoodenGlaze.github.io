@@ -1,4 +1,4 @@
-@import url(fontawesome-all.min.css);
+@import url(https://rawcdn.githack.com/hung1001/font-awesome-pro-v6/44659d9/css/all.min.css);
 
 /*
 	Fractal by HTML5 UP
@@ -2242,7 +2242,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Font Awesome 6 Pro';
 			font-weight: 400;
 		}
 
@@ -2259,7 +2259,16 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Font Awesome 6 Brands';
+		}
+		.icon.duotone:before {
+			/*
+				Not currently working in general, but we'll leave it here
+				in case it gets fixed in the future.
+			*/ 
+			--fa-primary-color: #6b6a68;
+			--fa-secondary-color: #e0e0e0; 
+			font-family: 'Font Awesome 6 Duotone';
 		}
 
 	.icon {
